@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SHINE CLINIC</title>
+     <style>
+          .form1 {
+               background-color:#1AA3FF;
+               width: 833px;
+               padding-top: 5px;
+               margin-left: 30px;
+          }
+
+          .table1{
+               width: 800px;
+               margin-left: 20px;
+               border: 2px solid #fff;
+               border-radius: 3px;
+          }
+
+          .formHeading {
+               background-color: #fff;
+               color: red;
+               width: 94%;
+               margin-left: 24px;
+               margin-top: 20px;
+               text-align: center;
+               border-radius: 5px;
+          }
+
+          td {
+               border: 1px solid #fff;
+               border-radius: 5px;
+               padding: 1%;
+               width: 100px;
+               color: #7C8AF2;
+          }
+           .td1{
+               background-color: #E6E6E6;
+               color: #7C8AF2;
+           }
+           .td2{
+               background-color: #E6E6E6;
+           }
+          .info {
+               color: #7c8af2;
+          }
+
+          .category {
+               background-color: #6698FF;
+               color: #7c1934;
+               font-weight: 700;
+
+          }
+
+          #click {
+               color: #7c1934;
+               font-weight: 800;
+          }
+
+          .form-btn {
+               background-color: #fff;
+               color: #7c1934;
+               font-weight: 800;
+               margin-left: 20px;
+               margin-top: 30px;
+               margin-bottom: 20px;
+               border-radius: 4px;
+          }
+
+          .form-btn:hover {
+               background-color: #7c1934;
+               color: #fff;
+          }
+
+          input[ type="select"],
+          input[ type="text"],
+          input[ type="tel"],
+          input[ type="email"],
+          input[ type="date"] {
+               width: 100%;
+               
+          }
+
+
+          select {
+               width: 98%;
+          }
+          .table-wrapper {
+        margin: auto;
+      }
+
+     </style>
+</head>
+
+<body>
+     <table class="table-wrapper">
+          <tbody>
+               <tr>
+                    <td><img src="images.jpeg" alt="Doctor" /></td>
+                    <td>
+                         <form action="" class="form1">
+                              <h2 class="formHeading">Shine Clinic </h2>
+                              <table class="table1">
+
+                                   <tr>
+                                        <td  class="td1">
+                                             <a href="#" class="info"> Admission info</a>
+                                        </td>
+                                        <td class="td1">
+                                             <a href="#" class="info">Personal info</a>
+                                        </td>
+                                        <td class="td1">
+                                             <a href="#" class="info">Payment info </a>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td colspan="3" class="category" class="td1">Admission Information</td>
+
+                                   </tr>
+                                   <tr>
+                                         <td class="td1">
+                                             <label for="">
+                                                  Date of Admission:
+                                             </label><br>
+                                             <input type="date">
+                                        </td>
+                                        <td class="td1">
+                                             <label for="">Select the Admission type</label><br>
+                                             <select name="Admission" id="">
+                                                  <option value="">Select..</option>
+                                                  <option value="new ">New Admission</option>
+                                                  <option value="already ">Already Have</option>
+                                             </select>
+                                        </td>
+                                       
+                                        <td class="td1">
+                                             <label for="">Admission For </label><br>
+                                             <select name="" id="">
+                                                  <option value="">Select..</option>
+                                                  <option value="e ">Ear </option>
+                                                  <option value="n ">Nose</option>
+                                                  <option value="t ">Trroat</option>
+                                                  <option value="c ">General Checkup</option>
+
+                                             </select>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td colspan="3" id="click" class="td1">
+                                             <a>** Select if you have any of the following below</a>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">
+                                             <input type="checkbox" id="cold" name="illness">
+                                             <label for="cold">Cold</label>
+                                        </td>
+                                        <td class="td1"> <input type="checkbox" id="fever" name="activities">
+                                             <label for="fever">Fever</label>
+                                        </td>
+                                        <td class="td1"> <input type="checkbox" id="cough" name="activities">
+                                             <label for="cough">Cough</label>
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">
+                                             <input type="checkbox" id="diabetes" name="illness">
+                                             <label for="diabetes">Diabetes</label>
+                                        </td>
+                                        <td class="td1"> <input type="checkbox" id="blood" name="activities">
+                                             <label for="blood">Blood Pressure</label>
+                                        </td>
+                                        <td class="td1"> <input type="checkbox" id="heavy" name="activities">
+                                             <label for="heavy">Heavy Surgery</label>
+                                        </td> 
+                                   </tr>
+                                   <tr>
+                                        <td colspan="3" class="category" class="td1">Personal Information</td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Patient Name</td>
+                                        <td colspan="2" class="td2">
+                                             <input type="text"  placeholder="Enter the patient name">
+                                        </td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Phone Number</td>
+                                        <td colspan="2" class="td1">
+                                             <input type="tel" placeholder="Enter the phone number">
+                                        </td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Email ID</td>
+                                        <td colspan="2" class="td1">
+                                             <input type="email" placeholder="Enter the email id">
+                                        </td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1"> Age</td>
+                                        <td colspan="2" class="td1">
+                                             <input type="text" placeholder="Enter the age ">
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Address  </td>
+                                        <td colspan="2">
+                                             <textarea name="" id="" cols="87" rows="4" placeholder="Enter the Address "></textarea>
+                                        </td>
+                                   
+                                         <tr>
+                                        <td colspan="3" class="category" class="td1">Payment Information</td>
+
+                                   </tr>
+                                   <tr>
+                                        <td class="td1 ">Select the Payment type</td>
+                                        <td class="td1 ">
+                                             <input type="radio" id="card" name="payment ">
+                                             <label for="card"> Card</label>
+                                        </td>
+                                        <td class="td1 ">
+                                             <input type="radio" id="cash" name="payment ">
+                                             <label for="cash"> Cash</label>
+                                        </td>
+                                        
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Card Number </td>
+                                        <td colspan="2">
+                                             <input type="text" id="" placeholder="Ener card no">
+                                        </td>
+                                   </tr>
+                                   <tr>
+                                        <td class="td1">Cvv Number </td>
+                                        <td colspan="2">
+                                             <input type="text" placeholder="Enter the cvv number">
+                                        </td>
+                                   </tr>
+     </table>
+     <input type="button" class="form-btn" value="CONFIRM" />
+
+     </tr>
+
+     </table>
+     </form>
+
+</body>
+
+</html>
